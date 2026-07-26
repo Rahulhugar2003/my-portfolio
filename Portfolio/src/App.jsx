@@ -6,19 +6,19 @@ import "./App.css";
 const skillLogos = {
   Python: (
     <svg className="w-6 h-6" viewBox="0 0 110 110" fill="currentColor">
-      <path d="M52.3 2.1c-16.7 0-25.7 1.7-25.7 1.7s-10.4 1.7-10.4 9.1v9c0 4.1 3.5 7.6 7.6 7.6h17.3c1.7 0 3 1.3 3 3v8.5c0 1.7-1.3 3-3 3h-25c-4.1 0-8 3.3-8 8v16.7c0 4.1 3.2 7.7 7.7 7.7h6.6c1.7 0 3-1.3 3-3V68c0-3.3 2.7-6 6-6h23.5c3.3 0 6 2.7 6 6v14.4c0 3.3-2.7 6-6 6H39.4c-1.7 0-3 1.3-3 3v8.6c0 1.7 1.3 3 3 3h12.9c16.7 0 25.7-1.7 25.7-1.7s10.4-1.7 10.4-9.1v-9c0-4.1-3.5-7.6-7.6-7.6H63.5c-1.7 0-3-1.3-3-3v-8.5c0-1.7 1.3-3 3-3h25c4.1 0 8-3.3 8-8V39.4c0-4.1-3.2-7.7-7.7-7.7h-6.6c-1.7 0-3 1.3-3 3v14.7c0 3.3-2.7 6-6 6H49.7c-3.3 0-6-2.7-6-6V35c0-3.3 2.7-6 6-6h19.7c1.7 0 3-1.3 3-3v-8.6c0-1.7-1.3-3-3-3H52.3z" fill="#3776AB"/>
+      <path d="M52.3 2.1c-16.7 0-25.7 1.7-25.7 1.7s-10.4 1.7-10.4 9.1v9c0 4.1 3.5 7.6 7.6 7.6h17.3c1.7 0 3 1.3 3 3v8.5c0 1.7-1.3 3-3 3h-25c-4.1 0-8 3.3-8 8v16.7c0 4.1 3.2 7.7 7.7 7.7h6.6c1.7 0 3-1.3 3-3V68c0-3.3 2.7-6 6-6h23.5c3.3 0 6 2.7 6 6v14.4c0 3.3-2.7 6-6 6H39.4c-1.7 0-3 1.3-3 3v8.6c0 1.7 1.3 3 3 3h12.9c16.7 0 25.7-1.7 25.7-1.7s10.4-1.7 10.4-9.1v-9c0-4.1-3.5-7.6-7.6-7.6H63.5c-1.7 0-3-1.3-3-3v-8.5c0-1.7 1.3-3 3-3h25c4.1 0 8-3.3 8-8V39.4c0-4.1-3.2-7.7-7.7-7.7h-6.6c-1.7 0-3 1.3-3 3v14.7c0 3.3-2.7 6-6 6H49.7c-3.3 0-6-2.7-6-6V35c0-3.3 2.7-6 6-6h19.7c1.7 0 3-1.3 3-3v-8.6c0-1.7-1.3-3-3-3H52.3z" fill="#3776AB" />
     </svg>
   ),
   JavaScript: (
     <svg className="w-6 h-6" viewBox="0 0 448 512" fill="currentColor">
-      <path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 76.1-74.7 76.1-40 0-67.7-22.1-78.2-46.1l43.3-25.2c6.7 12.3 16.1 22.9 31.5 22.9 15 0 24.6-7.4 24.6-25v-197h53.5v194.3zm121.4-58.2c0 29.1-15.5 53.7-41.4 53.7-23.7 0-38.5-13.7-45.9-28.3l-43.1 25.2c13.7 25.6 41.5 49.6 89.2 49.6 62.1 0 94.7-38.5 94.7-88.5 0-81-67.2-100.9-113.2-120.5-27-11.5-47.4-20.1-47.4-44.3 0-19.6 15.3-31.3 37-31.3 21.5 0 34.9 9.3 41.6 23.7l41.6-24.7C370.4 82.6 348 64 307 64c-53.2 0-90.8 29.3-90.8 77.3 0 76.8 69.4 97.4 116.2 117.8 31.7 13.9 44.4 24.5 44.4 46.1z" fill="#F7DF1E"/>
+      <path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 76.1-74.7 76.1-40 0-67.7-22.1-78.2-46.1l43.3-25.2c6.7 12.3 16.1 22.9 31.5 22.9 15 0 24.6-7.4 24.6-25v-197h53.5v194.3zm121.4-58.2c0 29.1-15.5 53.7-41.4 53.7-23.7 0-38.5-13.7-45.9-28.3l-43.1 25.2c13.7 25.6 41.5 49.6 89.2 49.6 62.1 0 94.7-38.5 94.7-88.5 0-81-67.2-100.9-113.2-120.5-27-11.5-47.4-20.1-47.4-44.3 0-19.6 15.3-31.3 37-31.3 21.5 0 34.9 9.3 41.6 23.7l41.6-24.7C370.4 82.6 348 64 307 64c-53.2 0-90.8 29.3-90.8 77.3 0 76.8 69.4 97.4 116.2 117.8 31.7 13.9 44.4 24.5 44.4 46.1z" fill="#F7DF1E" />
     </svg>
   ),
   TypeScript: (
     <svg className="w-6 h-6" viewBox="0 0 100 100" fill="currentColor">
-      <rect width="100" height="100" rx="8" fill="#3178C6"/>
-      <path d="M35 70V30H45V38H35V70H35Z" fill="white"/>
-      <path d="M50 48c0-8 6-12 14-12 6 0 11 3 13 8l-8 4c-1-2-3-3-5-3-3 0-5 2-5 5s2 5 5 5c2 0 4-1 5-3l8 4c-2 5-7 8-13 8-8 0-14-4-14-12z" fill="white"/>
+      <rect width="100" height="100" rx="8" fill="#3178C6" />
+      <path d="M35 70V30H45V38H35V70H35Z" fill="white" />
+      <path d="M50 48c0-8 6-12 14-12 6 0 11 3 13 8l-8 4c-1-2-3-3-5-3-3 0-5 2-5 5s2 5 5 5c2 0 4-1 5-3l8 4c-2 5-7 8-13 8-8 0-14-4-14-12z" fill="white" />
     </svg>
   ),
   Java: (
@@ -37,27 +37,27 @@ const skillLogos = {
   ),
   React: (
     <svg className="w-6 h-6 text-sky-400" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M24 10.42c-.08-.94-.65-1.83-1.57-2.39-1.28-.78-3.07-.94-5-.5l-1.39.37C14.71 6.55 13.43 5.34 12 5.34c-1.43 0-2.71 1.21-4.04 2.56l-1.39-.37c-1.93-.44-3.72-.28-5 .5-1 .56-1.5 1.45-1.57 2.39.08.94.65 1.83 1.57 2.39 1.28.78 3.07.94 5 .5l1.39-.37c1.33 1.35 2.61 2.56 4.04 2.56 1.43 0 2.71-1.21 4.04-2.56l1.39.37c1.93.44 3.72.28 5-.5 1-.56 1.5-1.45 1.57-2.39zM12 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="#61DAFB"/>
+      <path d="M24 10.42c-.08-.94-.65-1.83-1.57-2.39-1.28-.78-3.07-.94-5-.5l-1.39.37C14.71 6.55 13.43 5.34 12 5.34c-1.43 0-2.71 1.21-4.04 2.56l-1.39-.37c-1.93-.44-3.72-.28-5 .5-1 .56-1.5 1.45-1.57 2.39.08.94.65 1.83 1.57 2.39 1.28.78 3.07.94 5 .5l1.39-.37c1.33 1.35 2.61 2.56 4.04 2.56 1.43 0 2.71-1.21 4.04-2.56l1.39.37c1.93.44 3.72.28 5-.5 1-.56 1.5-1.45 1.57-2.39zM12 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="#61DAFB" />
     </svg>
   ),
   HTML: (
     <svg className="w-6 h-6" viewBox="0 0 448 512" fill="currentColor">
-      <path d="M0 32l36 396 188 52 188-52 36-396H0zm329 146H163l5 56h156l-14 156-90 25-90-25-6-68h48l3 36 45 13 45-13 7-76H120l-15-168h238l-14 146z" fill="#E34F26"/>
+      <path d="M0 32l36 396 188 52 188-52 36-396H0zm329 146H163l5 56h156l-14 156-90 25-90-25-6-68h48l3 36 45 13 45-13 7-76H120l-15-168h238l-14 146z" fill="#E34F26" />
     </svg>
   ),
   CSS: (
     <svg className="w-6 h-6" viewBox="0 0 448 512" fill="currentColor">
-      <path d="M0 32l36 396 188 52 188-52 36-396H0zm329 146H123l12 134h182l-12 134-89 25-90-25-6-68h48l3 36 45 13 45-13 7-76H120l-15-168h238l-14 146z" fill="#1572B6"/>
+      <path d="M0 32l36 396 188 52 188-52 36-396H0zm329 146H123l12 134h182l-12 134-89 25-90-25-6-68h48l3 36 45 13 45-13 7-76H120l-15-168h238l-14 146z" fill="#1572B6" />
     </svg>
   ),
   "Tailwind CSS": (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" fill="#06B6D4"/>
+      <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" fill="#06B6D4" />
     </svg>
   ),
   Figma: (
     <svg className="w-6 h-6" viewBox="0 0 384 512" fill="currentColor">
-      <path d="M96 0c53 0 96 43 96 96v96H96c-53 0-96-43-96-96S43 0 96 0zm96 192v128c0 53-43 96-96 96s-96-43-96-96 43-96 96-96h96zm0 0c53 0 96 43 96 96s-43 96-96 96v-192zm0-96c0-53 43-96 96-96s96 43 96 96-43 96-96 96h-96V96zm192 192c0 53-43 96-96 96V192h96c53 0 96 43 96 96z" fill="#F24E1E"/>
+      <path d="M96 0c53 0 96 43 96 96v96H96c-53 0-96-43-96-96S43 0 96 0zm96 192v128c0 53-43 96-96 96s-96-43-96-96 43-96 96-96h96zm0 0c53 0 96 43 96 96s-43 96-96 96v-192zm0-96c0-53 43-96 96-96s96 43 96 96-43 96-96 96h-96V96zm192 192c0 53-43 96-96 96V192h96c53 0 96 43 96 96z" fill="#F24E1E" />
     </svg>
   ),
   "Node.js": (
@@ -101,32 +101,32 @@ const skillLogos = {
   ),
   GitHub: (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
     </svg>
   ),
   Git: (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M23.384 11.232L12.768.616c-.822-.821-2.155-.821-2.977 0L8.718 1.69a.442.442 0 000 .624l1.094 1.094a1.866 1.866 0 012.976 0l4.248 4.248a1.866 1.866 0 010 2.976l-1.094 1.094a.442.442 0 000 .624l5.352 5.352c.821.821.821 2.155 0 2.976l-2.072 2.072c-.821.821-2.155.821-2.976 0l-5.352-5.352a.442.442 0 00-.624 0l-1.094 1.094a1.866 1.866 0 01-2.976 0L1.69 15.282a2.105 2.105 0 010-2.976l1.074-1.074a.442.442 0 000-.624l1.094-1.094a1.866 1.866 0 012.976 0l1.094 1.094a.442.442 0 00.624 0l1.094-1.094a1.866 1.866 0 010-2.976L8.58.616c-.822-.821-2.155-.821-2.976 0L.616 5.604c-.821.822-.821 2.155 0 2.977l10.616 10.616c.821.821 2.155.821 2.976 0l2.072-2.072c.821-.821.821-2.155 0-2.976l-1.094-1.094a.442.442 0 000-.624l1.094-1.094c.821-.821 2.155-.821 2.976 0l5.352 5.352c.821.821 2.155.821 2.976 0l2.072-2.072c.821-.821.821-2.155 0-2.976l-5.352-5.352a.442.442 0 00-.624 0z" fill="#F05032"/>
+      <path d="M23.384 11.232L12.768.616c-.822-.821-2.155-.821-2.977 0L8.718 1.69a.442.442 0 000 .624l1.094 1.094a1.866 1.866 0 012.976 0l4.248 4.248a1.866 1.866 0 010 2.976l-1.094 1.094a.442.442 0 000 .624l5.352 5.352c.821.821.821 2.155 0 2.976l-2.072 2.072c-.821.821-2.155.821-2.976 0l-5.352-5.352a.442.442 0 00-.624 0l-1.094 1.094a1.866 1.866 0 01-2.976 0L1.69 15.282a2.105 2.105 0 010-2.976l1.074-1.074a.442.442 0 000-.624l1.094-1.094a1.866 1.866 0 012.976 0l1.094 1.094a.442.442 0 00.624 0l1.094-1.094a1.866 1.866 0 010-2.976L8.58.616c-.822-.821-2.155-.821-2.976 0L.616 5.604c-.821.822-.821 2.155 0 2.977l10.616 10.616c.821.821 2.155.821 2.976 0l2.072-2.072c.821-.821.821-2.155 0-2.976l-1.094-1.094a.442.442 0 000-.624l1.094-1.094c.821-.821 2.155-.821 2.976 0l5.352 5.352c.821.821 2.155.821 2.976 0l2.072-2.072c.821-.821.821-2.155 0-2.976l-5.352-5.352a.442.442 0 00-.624 0z" fill="#F05032" />
     </svg>
   ),
   "VS Code": (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M23.985 6.809l-3.364-1.562a1.002 1.002 0 0 0-1.095.148l-8.083 7.027-4.148-3.151-5.69 2.766a.5.5 0 0 0-.012.879l4.242 2.378-4.225 2.399a.5.5 0 0 0 .012.879l5.69 2.766 4.148-3.151 8.083 7.027c.294.256.721.31 1.074.137l3.385-1.572a1.003 1.003 0 0 0 .594-.916V7.725a1.004 1.004 0 0 0-.594-.916zM17.439 12l-4.116-3.127 1.83-1.591L17.439 12z" fill="#007ACC"/>
+      <path d="M23.985 6.809l-3.364-1.562a1.002 1.002 0 0 0-1.095.148l-8.083 7.027-4.148-3.151-5.69 2.766a.5.5 0 0 0-.012.879l4.242 2.378-4.225 2.399a.5.5 0 0 0 .012.879l5.69 2.766 4.148-3.151 8.083 7.027c.294.256.721.31 1.074.137l3.385-1.572a1.003 1.003 0 0 0 .594-.916V7.725a1.004 1.004 0 0 0-.594-.916zM17.439 12l-4.116-3.127 1.83-1.591L17.439 12z" fill="#007ACC" />
     </svg>
   ),
   AWS: (
     <svg className="w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M14.9 16.4c-1.3 1-3.2 1.6-5 1.6-2.9 0-5.3-1.6-5.3-4.8 0-4 3.3-5.3 7.7-5.3.8 0 1.7.1 2.5.2v.6c0 2.2-.5 4.3-1.7 5.9-1.2 1.5-2.2 1.8-3.2 1.8 1.5 1 3.5.7 5-1.2l.4 1.2zm-2.5-6.7c-2.4 0-4 .5-4 2.4 0 1.2.8 2 2.2 2 1.8 0 2.8-1.3 2.8-3.5v-.9h-1zm9 8.2c-.4.5-1 1-1.7 1-.9 0-1.4-.7-1.4-1.7V8.5c0-1.2-.8-1.9-2.3-1.9-1.3 0-2.3.7-2.9 1.6l.8.8c.4-.6 1-.9 1.7-.9.7 0 1 .4 1 1.1v.6c-.6-.2-1.3-.3-2.1-.3-2.8 0-4.6 1.4-4.6 3.9 0 2.1 1.3 3.3 3.1 3.3 1.5 0 2.6-.9 3.1-1.9v1.6c0 1.9.9 2.9 2.7 2.9.9 0 1.9-.3 2.5-1l-.9-1z" fill="#FF9900"/>
+      <path d="M14.9 16.4c-1.3 1-3.2 1.6-5 1.6-2.9 0-5.3-1.6-5.3-4.8 0-4 3.3-5.3 7.7-5.3.8 0 1.7.1 2.5.2v.6c0 2.2-.5 4.3-1.7 5.9-1.2 1.5-2.2 1.8-3.2 1.8 1.5 1 3.5.7 5-1.2l.4 1.2zm-2.5-6.7c-2.4 0-4 .5-4 2.4 0 1.2.8 2 2.2 2 1.8 0 2.8-1.3 2.8-3.5v-.9h-1zm9 8.2c-.4.5-1 1-1.7 1-.9 0-1.4-.7-1.4-1.7V8.5c0-1.2-.8-1.9-2.3-1.9-1.3 0-2.3.7-2.9 1.6l.8.8c.4-.6 1-.9 1.7-.9.7 0 1 .4 1 1.1v.6c-.6-.2-1.3-.3-2.1-.3-2.8 0-4.6 1.4-4.6 3.9 0 2.1 1.3 3.3 3.1 3.3 1.5 0 2.6-.9 3.1-1.9v1.6c0 1.9.9 2.9 2.7 2.9.9 0 1.9-.3 2.5-1l-.9-1z" fill="#FF9900" />
     </svg>
   ),
   Linux: (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-6.477 10-10S17.523 2 12 2zm1 14.5h-2v-2h2v2zm0-4.5h-2V7h2v5z" fill="#FCC624"/>
+      <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-6.477 10-10S17.523 2 12 2zm1 14.5h-2v-2h2v2zm0-4.5h-2V7h2v5z" fill="#FCC624" />
     </svg>
   ),
   Docker: (
     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M13.983 11.078h2.119c.102 0 .186-.084.186-.186V8.774c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v2.118c0 .102.084.186.186.186zm-2.93 0h2.118c.102 0 .185-.084.185-.186V8.774c0-.102-.083-.186-.185-.186h-2.119c-.101 0-.185.084-.185.186v2.118c0 .102.084.186.185.186zm-2.93 0h2.12c.101 0 .185-.084.185-.186V8.774c0-.102-.084-.186-.185-.186h-2.12c-.101 0-.185.084-.185.186v2.118c0 .102.084.186.185.186zm-2.929 0h2.119c.102 0 .185-.084.185-.186V8.774c0-.102-.083-.186-.185-.186H5.204c-.102 0-.185.084-.185.186v2.118c0 .102.083.186.185.186zm5.859-2.93h2.118c.102 0 .185-.083.185-.185V5.844c0-.101-.083-.185-.185-.185h-2.119c-.101 0-.185.084-.185.185v2.118c0 .102.084.186.185.186zm-2.93 0h2.12c.101 0 .185-.083.185-.185V5.844c0-.101-.084-.185-.185-.185h-2.12c-.101 0-.185.084-.185.185v2.118c0 .102.084.186.185.186zm-2.93 0h2.119c.102 0 .185-.083.185-.185V5.844c0-.101-.083-.185-.185-.185H5.204c-.102 0-.185.084-.185.185v2.118c0 .102.083.186.185.186zm5.859-2.929h2.118c.102 0 .185-.083.185-.185V2.916c0-.102-.083-.185-.185-.185h-2.119c-.101 0-.185.083-.185.185v2.119c0 .102.084.185.185.185zm2.93 5.858h2.119c.102 0 .186-.083.186-.185V8.774c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v2.119c0 .101.084.185.186.185zM22.56 14.22c-.224-.527-.814-.85-1.464-.85h-2.316a.186.186 0 00-.186.186 6.94 6.94 0 01-6.93 6.93 6.94 6.94 0 01-6.93-6.93.186.186 0 00-.186-.186H1.9a1.597 1.597 0 00-1.48 2.203c.535 1.348 1.488 2.49 2.76 3.298C5.074 20.316 7.426 21 10.024 21c6.51 0 11.236-4.148 12.536-6.78z" fill="#2496ED"/>
+      <path d="M13.983 11.078h2.119c.102 0 .186-.084.186-.186V8.774c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v2.118c0 .102.084.186.186.186zm-2.93 0h2.118c.102 0 .185-.084.185-.186V8.774c0-.102-.083-.186-.185-.186h-2.119c-.101 0-.185.084-.185.186v2.118c0 .102.084.186.185.186zm-2.93 0h2.12c.101 0 .185-.084.185-.186V8.774c0-.102-.084-.186-.185-.186h-2.12c-.101 0-.185.084-.185.186v2.118c0 .102.084.186.185.186zm-2.929 0h2.119c.102 0 .185-.084.185-.186V8.774c0-.102-.083-.186-.185-.186H5.204c-.102 0-.185.084-.185.186v2.118c0 .102.083.186.185.186zm5.859-2.93h2.118c.102 0 .185-.083.185-.185V5.844c0-.101-.083-.185-.185-.185h-2.119c-.101 0-.185.084-.185.185v2.118c0 .102.084.186.185.186zm-2.93 0h2.12c.101 0 .185-.083.185-.185V5.844c0-.101-.084-.185-.185-.185h-2.12c-.101 0-.185.084-.185.185v2.118c0 .102.084.186.185.186zm-2.93 0h2.119c.102 0 .185-.083.185-.185V5.844c0-.101-.083-.185-.185-.185H5.204c-.102 0-.185.084-.185.185v2.118c0 .102.083.186.185.186zm5.859-2.929h2.118c.102 0 .185-.083.185-.185V2.916c0-.102-.083-.185-.185-.185h-2.119c-.101 0-.185.083-.185.185v2.119c0 .102.084.185.185.185zm2.93 5.858h2.119c.102 0 .186-.083.186-.185V8.774c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v2.119c0 .101.084.185.186.185zM22.56 14.22c-.224-.527-.814-.85-1.464-.85h-2.316a.186.186 0 00-.186.186 6.94 6.94 0 01-6.93 6.93 6.94 6.94 0 01-6.93-6.93.186.186 0 00-.186-.186H1.9a1.597 1.597 0 00-1.48 2.203c.535 1.348 1.488 2.49 2.76 3.298C5.074 20.316 7.426 21 10.024 21c6.51 0 11.236-4.148 12.536-6.78z" fill="#2496ED" />
     </svg>
   )
 };
@@ -140,11 +140,10 @@ const SkillCategory = ({ title, skills, isDark }) => (
       {skills.map((skill, index) => (
         <div
           key={index}
-          className={`flex items-center space-x-2.5 px-4 py-2.5 rounded-xl border transition-all duration-300 shadow-sm ${
-            isDark
+          className={`flex items-center space-x-2.5 px-4 py-2.5 rounded-xl border transition-all duration-300 shadow-sm ${isDark
               ? "bg-zinc-900/60 border-zinc-800 text-zinc-100 hover:border-purple-500/50 hover:bg-zinc-900"
               : "bg-white border-purple-100 text-zinc-800 hover:border-purple-500 hover:bg-purple-50"
-          }`}
+            }`}
         >
           {skillLogos[skill] || (
             <svg className="w-5 h-5 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,21 +158,19 @@ const SkillCategory = ({ title, skills, isDark }) => (
 );
 
 const ProjectCard = ({ project, isExpanded, setIsExpanded, isDark }) => (
-  <div className={`rounded-2xl border flex flex-col h-full transition-all duration-300 ${
-    isDark 
-      ? "border-zinc-800 bg-zinc-900/70 text-white shadow-none" 
+  <div className={`rounded-2xl border flex flex-col h-full transition-all duration-300 ${isDark
+      ? "border-zinc-800 bg-zinc-900/70 text-white shadow-none"
       : "border-purple-200 bg-white text-zinc-900 shadow-md hover:shadow-lg"
-  }`}>
+    }`}>
     <div className="flex flex-col space-y-1.5 p-6">
       <h3 className={`text-2xl font-bold leading-none tracking-wide flex items-center ${isDark ? "text-white" : "text-zinc-900"}`}>
         <span className="mr-2">{project.title}</span>
         {project.status && (
           <div
-            className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold border-transparent text-white ${
-              project.status === "Completed"
+            className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold border-transparent text-white ${project.status === "Completed"
                 ? "bg-emerald-600"
                 : "bg-rose-700"
-            }`}
+              }`}
           >
             {project.status}
           </div>
@@ -201,11 +198,10 @@ const ProjectCard = ({ project, isExpanded, setIsExpanded, isDark }) => (
           key={i}
           target="_blank"
           rel="noreferrer"
-          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${
-            isDark 
-              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white" 
+          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${isDark
+              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white"
               : "bg-purple-100 text-purple-900 border-purple-200 hover:bg-purple-600 hover:text-white"
-          }`}
+            }`}
           href={link.url}
         >
           {link.label}
@@ -215,11 +211,10 @@ const ProjectCard = ({ project, isExpanded, setIsExpanded, isDark }) => (
         <a
           target="_blank"
           rel="noreferrer"
-          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${
-            isDark 
-              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white" 
+          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${isDark
+              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white"
               : "bg-purple-100 text-purple-900 border-purple-200 hover:bg-purple-600 hover:text-white"
-          }`}
+            }`}
           href={project.figmaLink}
         >
           Figma
@@ -229,11 +224,10 @@ const ProjectCard = ({ project, isExpanded, setIsExpanded, isDark }) => (
         <a
           target="_blank"
           rel="noreferrer"
-          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${
-            isDark 
-              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white" 
+          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm border ${isDark
+              ? "bg-zinc-800 text-purple-300 border-zinc-700 hover:bg-purple-600 hover:text-white"
               : "bg-purple-100 text-purple-900 border-purple-200 hover:bg-purple-600 hover:text-white"
-          }`}
+            }`}
           href={project.liveLink}
         >
           Live
@@ -243,11 +237,10 @@ const ProjectCard = ({ project, isExpanded, setIsExpanded, isDark }) => (
         <a
           target="_blank"
           rel="noreferrer"
-          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm ${
-            isDark 
-              ? "bg-white text-zinc-900 hover:bg-purple-400" 
+          className={`inline-flex items-center justify-center rounded-xl text-sm font-semibold transition-all h-9 px-4 shadow-sm ${isDark
+              ? "bg-white text-zinc-900 hover:bg-purple-400"
               : "bg-zinc-900 text-white hover:bg-purple-700"
-          }`}
+            }`}
           href={project.codeLink}
         >
           <svg viewBox="0 0 438.549 438.549" className="mr-2 h-4 w-4 fill-current">
@@ -329,22 +322,19 @@ const App = () => {
     <div className={`${isDark ? "dark bg-custom-dark text-white" : "bg-custom-light text-zinc-900"} min-h-screen transition-colors duration-300 px-4 sm:px-6`}>
       {/* Floating Header */}
       <header className="sticky top-4 z-50 max-w-4xl mx-auto mb-12">
-        <div className={`backdrop-blur-md rounded-2xl border px-6 py-3 shadow-lg flex items-center justify-between transition-all duration-300 ${
-          isDark 
-            ? "bg-zinc-950/85 border-zinc-800/80 shadow-purple-500/10" 
+        <div className={`backdrop-blur-md rounded-2xl border px-6 py-3 shadow-lg flex items-center justify-between transition-all duration-300 ${isDark
+            ? "bg-zinc-950/85 border-zinc-800/80 shadow-purple-500/10"
             : "bg-white/95 border-purple-200/80 shadow-purple-500/5"
-        }`}>
+          }`}>
           <div className="flex items-center space-x-3">
-            <span className={`text-xl font-extrabold tracking-wider bg-gradient-to-r bg-clip-text text-transparent ${
-              isDark ? "from-blue-400 to-purple-400" : "from-blue-600 to-purple-600"
-            }`}>
+            <span className={`text-xl font-extrabold tracking-wider bg-gradient-to-r bg-clip-text text-transparent ${isDark ? "from-blue-400 to-purple-400" : "from-blue-600 to-purple-600"
+              }`}>
               RH
             </span>
           </div>
 
-          <nav className={`hidden md:flex items-center space-x-6 text-sm font-bold ${
-            isDark ? "text-zinc-200" : "text-zinc-800"
-          }`}>
+          <nav className={`hidden md:flex items-center space-x-6 text-sm font-bold ${isDark ? "text-zinc-200" : "text-zinc-800"
+            }`}>
             <a href="#home" className={`transition-colors ${isDark ? "hover:text-purple-400" : "hover:text-purple-700"}`}>Home</a>
             <a href="#about" className={`transition-colors ${isDark ? "hover:text-purple-400" : "hover:text-purple-700"}`}>About</a>
             <a href="#experience" className={`transition-colors ${isDark ? "hover:text-purple-400" : "hover:text-purple-700"}`}>Experience</a>
@@ -375,18 +365,17 @@ const App = () => {
         {/* Centered Hero Section */}
         <section id="home" className="py-12 sm:py-20 text-center flex flex-col items-center justify-center">
           <div className="mb-6 relative">
-            <img 
-              src="/photo.jpg" 
-              alt="Rahul Hugar" 
+            <img
+              src="/photo.jpg"
+              alt="Rahul Hugar"
               className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border-4 border-purple-500/40 dark:border-purple-400/30 shadow-xl shadow-purple-500/20"
             />
           </div>
 
           <h1 className={`text-4xl sm:text-6xl font-black tracking-tight mb-4 ${isDark ? "text-white" : "text-zinc-900"}`}>
             Hello, I'm{" "}
-            <span className={`bg-gradient-to-r bg-clip-text text-transparent underline decoration-purple-600 underline-offset-8 ${
-              isDark ? "from-blue-400 via-purple-400 to-pink-400" : "from-blue-600 via-purple-600 to-pink-600"
-            }`}>
+            <span className={`bg-gradient-to-r bg-clip-text text-transparent underline decoration-purple-600 underline-offset-8 ${isDark ? "from-blue-400 via-purple-400 to-pink-400" : "from-blue-600 via-purple-600 to-pink-600"
+              }`}>
               Rahul Hugar
             </span>
           </h1>
@@ -401,11 +390,10 @@ const App = () => {
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/rahul-hugar-96aa40238/"
-              className={`p-3 rounded-full border transition-all shadow-md ${
-                isDark 
-                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600" 
+              className={`p-3 rounded-full border transition-all shadow-md ${isDark
+                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600"
                   : "bg-white border-purple-200 text-zinc-800 hover:text-purple-755 hover:border-purple-600"
-              }`}
+                }`}
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5 fill-current" viewBox="0 0 50 50">
@@ -417,11 +405,10 @@ const App = () => {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/Rahulhugar2003"
-              className={`p-3 rounded-full border transition-all shadow-md ${
-                isDark 
-                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600" 
+              className={`p-3 rounded-full border transition-all shadow-md ${isDark
+                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600"
                   : "bg-white border-purple-200 text-zinc-800 hover:text-purple-755 hover:border-purple-600"
-              }`}
+                }`}
               aria-label="GitHub"
             >
               <svg className="w-5 h-5 fill-current" viewBox="0 0 438.549 438.549">
@@ -433,11 +420,10 @@ const App = () => {
               target="_blank"
               rel="noreferrer"
               href="https://www.youtube.com/@rahulhugar"
-              className={`p-3 rounded-full border transition-all shadow-md ${
-                isDark 
-                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600" 
+              className={`p-3 rounded-full border transition-all shadow-md ${isDark
+                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600"
                   : "bg-white border-purple-200 text-zinc-800 hover:text-purple-755 hover:border-purple-600"
-              }`}
+                }`}
               aria-label="YouTube"
             >
               <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
@@ -447,11 +433,10 @@ const App = () => {
 
             <a
               href="mailto:rahulmhugar@gmail.com"
-              className={`p-3 rounded-full border transition-all shadow-md ${
-                isDark 
-                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600" 
+              className={`p-3 rounded-full border transition-all shadow-md ${isDark
+                  ? "bg-zinc-900 border-zinc-800 text-zinc-200 hover:text-purple-400 hover:border-purple-600"
                   : "bg-white border-purple-200 text-zinc-800 hover:text-purple-755 hover:border-purple-600"
-              }`}
+                }`}
               aria-label="Email"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -462,14 +447,13 @@ const App = () => {
 
           {/* View Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1S9e-8JXVHXqm5tYbMZl2KQug-gZ1olUe/view?usp=sharing"
+            href="https://drive.google.com/file/d/15lAAIgyjfhVe8CZVe8_5d4JLzmFjqumS/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className={`inline-flex items-center justify-center rounded-2xl border-2 transition-all duration-300 px-8 py-3 font-extrabold shadow-lg ${
-              isDark 
-                ? "border-purple-600 text-purple-400 bg-transparent hover:bg-purple-600 hover:text-white shadow-purple-500/10 hover:shadow-purple-500/30" 
+            className={`inline-flex items-center justify-center rounded-2xl border-2 transition-all duration-300 px-8 py-3 font-extrabold shadow-lg ${isDark
+                ? "border-purple-600 text-purple-400 bg-transparent hover:bg-purple-600 hover:text-white shadow-purple-500/10 hover:shadow-purple-500/30"
                 : "border-purple-600 text-purple-700 bg-white hover:bg-purple-600 hover:text-white shadow-purple-500/15 hover:shadow-purple-500/30"
-            }`}
+              }`}
           >
             View Resume
           </a>
@@ -478,9 +462,8 @@ const App = () => {
         <div className="flex flex-col space-y-16">
           {/* About Section */}
           <section id="about" className="pt-8">
-            <h2 className={`text-3xl font-extrabold mb-4 border-b pb-2 ${
-              isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
-            }`}>
+            <h2 className={`text-3xl font-extrabold mb-4 border-b pb-2 ${isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
+              }`}>
               About Me
             </h2>
             <div className={`font-semibold leading-relaxed space-y-6 ${isDark ? "text-zinc-200" : "text-zinc-900"}`}>
@@ -527,22 +510,19 @@ const App = () => {
 
           {/* Experience Section */}
           <section id="experience" className="pt-4">
-            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${
-              isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
-            }`}>
+            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
+              }`}>
               Experience
             </h2>
             <div className="space-y-6">
-              <div className={`p-6 rounded-2xl border backdrop-blur-md shadow-md ${
-                isDark ? "border-zinc-800 bg-zinc-900/70" : "border-purple-200 bg-white/95"
-              }`}>
+              <div className={`p-6 rounded-2xl border backdrop-blur-md shadow-md ${isDark ? "border-zinc-800 bg-zinc-900/70" : "border-purple-200 bg-white/95"
+                }`}>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                   <h3 className={`text-xl font-bold ${isDark ? "text-white" : "text-zinc-950"}`}>
                     Software Developer I <span className={isDark ? "text-purple-400" : "text-purple-700"}>@ Edsols Innovations</span>
                   </h3>
-                  <span className={`text-xs font-bold px-3 py-1 rounded-full w-max mt-1 sm:mt-0 ${
-                    isDark ? "bg-purple-900/40 text-purple-300" : "bg-purple-100 text-purple-800"
-                  }`}>
+                  <span className={`text-xs font-bold px-3 py-1 rounded-full w-max mt-1 sm:mt-0 ${isDark ? "bg-purple-900/40 text-purple-300" : "bg-purple-100 text-purple-800"
+                    }`}>
                     Feb 2025 - Present
                   </span>
                 </div>
@@ -551,18 +531,15 @@ const App = () => {
                 </p>
               </div>
 
-              <div className={`p-6 rounded-2xl border backdrop-blur-md shadow-md ${
-                isDark ? "border-zinc-800 bg-zinc-900/70" : "border-purple-200 bg-white/95"
-              }`}>
+              <div className={`p-6 rounded-2xl border backdrop-blur-md shadow-md ${isDark ? "border-zinc-800 bg-zinc-900/70" : "border-purple-200 bg-white/95"
+                }`}>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                   <h3 className={`text-xl font-bold ${isDark ? "text-white" : "text-zinc-950"}`}>
-                    UI/UX Designer Intern <a href="https://www.vealthx.com/" target="_blank" rel="noreferrer" className={`hover:underline ${
-                      isDark ? "text-purple-400" : "text-purple-700"
-                    }`}>@ Vealthx</a>
+                    UI/UX Designer Intern <a href="https://www.vealthx.com/" target="_blank" rel="noreferrer" className={`hover:underline ${isDark ? "text-purple-400" : "text-purple-700"
+                      }`}>@ Vealthx</a>
                   </h3>
-                  <span className={`text-xs font-bold px-3 py-1 rounded-full w-max mt-1 sm:mt-0 ${
-                    isDark ? "bg-purple-900/40 text-purple-300" : "bg-purple-100 text-purple-800"
-                  }`}>
+                  <span className={`text-xs font-bold px-3 py-1 rounded-full w-max mt-1 sm:mt-0 ${isDark ? "bg-purple-900/40 text-purple-300" : "bg-purple-100 text-purple-800"
+                    }`}>
                     Internship
                   </span>
                 </div>
@@ -575,9 +552,8 @@ const App = () => {
 
           {/* Projects Section */}
           <section id="projects" className="pt-4">
-            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${
-              isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
-            }`}>
+            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
+              }`}>
               Development Projects
             </h2>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 mb-12">
@@ -592,9 +568,8 @@ const App = () => {
               ))}
             </div>
 
-            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${
-              isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
-            }`}>
+            <h2 className={`text-3xl font-extrabold mb-6 border-b pb-2 ${isDark ? "border-zinc-800 text-white" : "border-purple-200 text-zinc-950"
+              }`}>
               UI/UX Projects
             </h2>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -612,15 +587,13 @@ const App = () => {
 
           {/* Hire Me / Contact Form Section */}
           <section id="contact" className="pt-8 border-t border-purple-200 dark:border-zinc-800">
-            <div className={`p-8 rounded-3xl border shadow-xl ${
-              isDark ? "border-zinc-800 bg-zinc-900/70 shadow-purple-500/5" : "border-purple-200 bg-white shadow-purple-500/5"
-            }`}>
+            <div className={`p-8 rounded-3xl border shadow-xl ${isDark ? "border-zinc-800 bg-zinc-900/70 shadow-purple-500/5" : "border-purple-200 bg-white shadow-purple-500/5"
+              }`}>
               <h2 className={`text-3xl font-extrabold mb-2 ${isDark ? "text-white" : "text-zinc-950"}`}>Interested in Hiring?</h2>
               <p className={`font-semibold mb-6 ${isDark ? "text-zinc-300" : "text-zinc-900"}`}>
                 Fill out the form below to get in touch directly via email at{" "}
-                <a href="mailto:rahulmhugar@gmail.com" className={`font-bold hover:underline ${
-                  isDark ? "text-purple-400" : "text-purple-755"
-                }`}>
+                <a href="mailto:rahulmhugar@gmail.com" className={`font-bold hover:underline ${isDark ? "text-purple-400" : "text-purple-755"
+                  }`}>
                   rahulmhugar@gmail.com
                 </a>
               </p>
@@ -634,11 +607,10 @@ const App = () => {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${
-                      isDark 
-                        ? "border-zinc-700 bg-zinc-950 text-white" 
+                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${isDark
+                        ? "border-zinc-700 bg-zinc-950 text-white"
                         : "border-purple-200 bg-zinc-50 text-zinc-950"
-                    }`}
+                      }`}
                   />
                 </div>
 
@@ -650,11 +622,10 @@ const App = () => {
                     placeholder="your.email@example.com"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${
-                      isDark 
-                        ? "border-zinc-700 bg-zinc-950 text-white" 
+                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${isDark
+                        ? "border-zinc-700 bg-zinc-950 text-white"
                         : "border-purple-200 bg-zinc-50 text-zinc-950"
-                    }`}
+                      }`}
                   />
                 </div>
 
@@ -666,11 +637,10 @@ const App = () => {
                     placeholder="Tell me about your project or offer..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${
-                      isDark 
-                        ? "border-zinc-700 bg-zinc-950 text-white" 
+                    className={`w-full px-4 py-2.5 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm ${isDark
+                        ? "border-zinc-700 bg-zinc-950 text-white"
                         : "border-purple-200 bg-zinc-50 text-zinc-950"
-                    }`}
+                      }`}
                   ></textarea>
                 </div>
 
@@ -687,9 +657,8 @@ const App = () => {
       </main>
 
       {/* Footer */}
-      <footer className={`mt-16 py-8 border-t text-center text-sm font-bold space-y-2 ${
-        isDark ? "border-zinc-800 text-zinc-400" : "border-purple-200 text-zinc-900"
-      }`}>
+      <footer className={`mt-16 py-8 border-t text-center text-sm font-bold space-y-2 ${isDark ? "border-zinc-800 text-zinc-400" : "border-purple-200 text-zinc-900"
+        }`}>
         <p>© All rights reserved by Rahul Hugar</p>
         <p className="text-xs italic font-normal text-zinc-600 dark:text-zinc-400">
           The new portfolio is building soon, it will be live.
